@@ -1,0 +1,61 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+}
+
+/* Counter number */
+#counterLable {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Buttons container */
+#btns {
+    display: flex;
+    gap: 15px;
+}
+
+/* Buttons styling */
+.btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/* Individual button colors */
+#decreaseBTN {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+#resstBTN {
+    background-color: #999999;
+    color: white;
+}
+
+#increaseBTN {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hover effects */
+.btn:hover {
+    opacity: 0.85;
+}
